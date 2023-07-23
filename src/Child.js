@@ -5,6 +5,7 @@ function Child({ onChangeColor, color }) {
   function handleClick() {
     const newColor = getRandomColor();
     onChangeColor(newColor);
+  }
   return (
     <div
       onClick={handleClick}
@@ -12,8 +13,9 @@ function Child({ onChangeColor, color }) {
       style={{ backgroundColor: color }}
     />
   )
-}
+  }
 
-}
+
+
 
 export default Child
