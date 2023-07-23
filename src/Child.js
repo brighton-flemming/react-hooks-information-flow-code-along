@@ -16,4 +16,4 @@ function Child({ onChangeColor, color }) {
 
 
 
-export default Child;
+export default Child
